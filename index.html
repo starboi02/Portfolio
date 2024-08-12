@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varun Bhardwaj</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/geist@1.3.1/dist/font.min.js"></script>
+    <link rel="apple-touch-icon" style="background-color: #fff;" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" style="background-color: #fff;" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" style="background-color: #fff;" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <style>
+        body {
+            font-family: 'Geist Sans', sans-serif;
+            color: #d4d4d4;
+            font-size: 16px;
+            background-color: #111010;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #d4d4d4;
+        }
+
+        .header-menu a {
+            color: white;
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        .company-item img {
+            height: 100px;
+        }
+
+        .header-menu a:hover {
+            color: #d4d4d4;
+        }
+
+        .text-sm {
+            font-size: 16px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            color: #d4d4d4;
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 16px;
+            color: #d4d4d4;
+        }
+
+        .content {
+            margin-bottom: 16px;
+        }
+
+        .company-logo {
+            max-width: 100px;
+            margin-right: 16px;
+            vertical-align: middle;
+            background-color: #000;
+            padding: 8px;
+            border-radius: 8px;
+        }
+
+        .company-logo.seezo {
+            background-color: #000;
+        }
+
+        .company-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .company-item strong {
+            display: block;
+            margin-bottom: 6px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #d4d4d4;
+        }
+
+        .footer span {
+            display: inline-block;
+            margin-left: 5px;
+        }
+
+        .flex-img {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        .flex-img img {
+            flex: 1 1 0;
+            object-fit: cover;
+        }
+    </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HL3FHN58R6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-HL3FHN58R6');
+    </script>
+</head>
+
+<body class="antialiased max-w-2xl mb-40 flex flex-col md:flex-row mx-4 mt-8 lg:mx-auto text-white">
+    <!-- Main Container -->
+    <main class="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
+        <!-- Navigation Menu -->
+        <nav class="mb-10">
+            <ul class="flex flex-wrap justify-center sm:justify-start -mx-2 header-menu">
+                <li class="px-2 py-1"><a href="#home">Home</a></li>
+                <li class="px-2 py-1"><a href="#work">Work</a></li>
+                <li class="px-2 py-1"><a href="https://drive.google.com/file/d/1Sdm7gKA0VPdK_KYlwENtjQJr6_O2U8Tr/view?usp=sharing">Resume</a></li>
+                <li class="px-2 py-1"><a href="#projects">Project</a></li>
+                <li class="px-2 py-1"><a href="#blog">Blog</a></li>
+                <li class="px-2 py-1"><a href="#connect">Connect</a></li>
+            </ul>
+        </nav>
+        <!-- Message -->
+        <div class="mb-8">
+            <p id="greeting" class="text-xl text-left">Hello, I'm Varun Bhardwaj 👋</p>
+        </div>
+
+        <!-- About Section -->
+        <div id="home" class="section text-left text-sm">
+            <p class="content">I'm a software developer from Haryana, India, with a passion for tech and sports.</p>
+            <p class="content">I graduated from IIIT Allahabad in 2023 with a B.Tech in Information Technology.</p>
+            <p class="content">I've hands-on experience in Backend Development, Android Development and a bit of DevOps.</p>
+        </div>
+
+        <!-- Work Section -->
+        <div id="work" class="section text-left text-sm">
+            <div class="section-title">Work</div>
+
+            <div class="company-item">
+                <img src="assets/images/oracle.png" alt="Oracle" class="company-logo" />
+                <div>
+                    <strong>Member of Technical Staff @ Oracle</strong>
+                    <p>I am currently working at Oracle (OCI), where my primary responsibilities include setting up Grafana with Prometheus, Thanos, and Loki as part of the full-stack observability and monitoring framework, which is being adopted by 70+ teams across the Enterprise Engineering Org. I also worked on developing a Change Request automation tool that is being used by 200+ applications across the organization.</p>
+                </div>
+            </div>
+
+            <div class="company-item">
+                <img src="assets/images/dunzo.png" alt="Dunzo" class="company-logo" />
+                <div>
+                    <strong>SDE Intern @ Dunzo</strong>
+                    <p>At Dunzo I was a part of the team behind the ”Offer Nudge (Snackbar)” initiative, prompting users to add more for incremental discounts which boosted AOV by Rs.15 based on preliminary evaluations.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="projects" class="section text-left text-sm">
+            <div class="section-title">Project</div>
+
+            <div class="company-item">
+                <img src="assets/images/caliiita.png" alt="Caliiita" class="company-logo" />
+                <div>
+                    <strong><a href="https://github.com/GeekHaven/Saarani-frontend" target="_blank" style="display: flex; align-items: center;" >Caliiita 🔗</a></strong>
+                    <p>An event scheduling mobile application developed using Java which keeps track of all the events happening in the college and gives timely reminders, has 500+ active users and is actively being used by all the societies of the college for event scheduling and management. </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blog Section -->
+        <div id="blog" class="section text-left text-sm">
+            <div class="section-title">Blog</div>
+            <p class="content">Visit my blog at <a target="_blank" href="https://medium.com/p/249aa34f4f4c">🔗</a> where I am mainly writing about the stuff I find fascinating.</p>
+        </div>
+
+        <!-- Connect Section -->
+        <div id="connect" class="section text-left text-sm">
+            <div class="section-title">Let's Connect!</div>
+            <p class="content">
+                <a href="https://www.linkedin.com/in/varun-bhardwaj02/" target="_blank" style="display: flex; align-items: center;">
+                    <img src="assets/icons/linkedin.png" alt="LinkedIn" style="width: 24px; height: 24px; margin-right: 8px;">
+                    LinkedIn
+                </a>
+            </p>
+            <p class="content">
+                <a href="mailto:varunbhardwaj.064@gmail.com" style="display: flex; align-items: center;">
+                    <img src="assets/icons/gmail.png" alt="Email" style="width: 24px; height: 24px; margin-right: 8px;">
+                    Email
+                </a>
+            </p>
+            <p class="content">
+                <a href="https://www.github.com/starboi02" target="_blank" style="display: flex; align-items: center;">
+                    <img src="assets/icons/github.png" alt="GitHub" style="width: 24px; height: 24px; margin-right: 8px;">
+                    GitHub
+                </a>
+            </p>
+        </div>
+
+    </main>
+    <script>
+        let isEnglish = true;
+        const greetingElement = document.getElementById('greeting');
+
+        setInterval(() => {
+            if (isEnglish) {
+                greetingElement.innerHTML = 'Hello, I\'m Varun Bhardwaj 👋';
+            } else {
+                greetingElement.innerHTML = 'नमस्ते, मैं वरुण भारद्वाज हूं 👋';
+            }
+            isEnglish = !isEnglish;
+        }, 2000); // Change every 2 seconds
+    </script>
+
+    <script>
+        window.addEventListener('load', () => {
+            const images = document.querySelectorAll('.flex-img img');
+            let minHeight = Math.min(...Array.from(images).map(img => img.height));
+            images.forEach(img => {
+                img.style.maxHeight = `${minHeight}px`;
+            });
+        });
+    </script>
+</body>
+
+</html>
